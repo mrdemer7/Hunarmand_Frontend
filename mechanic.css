@@ -1,0 +1,125 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    scroll-padding-top: 1rem;
+    scroll-behavior:smooth;
+    list-style: none;
+    text-decoration:none;
+    box-sizing: border-box;
+}
+/* variables */
+
+:root{
+    --main-color:#d90429;
+    --text-color: #020102;
+    --bg-color: #fff;
+}
+/*---------------------------------pic-1 styling------------------------------------*/
+.pic{
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background: url(./img/design-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    color: #ffffff;
+}
+.pic-text{
+  padding-left: 50px;
+}
+.pic-text h1{
+  font-size:2.4rem;
+}
+.pic-text p{
+ padding-top: 30px;
+}
+.pic-text p{
+  font-size: 0.938rem;
+  font-weight: 300;
+  margin: 0.5rem 0 1.2rem;
+}
+.btn-1{
+  padding:10px 22px;
+  background: #592500;
+  color: var(--bg-color);
+  font-weight: 400;
+}
+.btn-1:hover{
+  background: #e55800;
+}
+/*---------------------------------pic-2 styling------------------------------------*/
+.pic-1{
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background: url(./img/design-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    color: #ffffff;
+}
+.pic-1-text{
+  padding-left: 50px;
+}
+.pic-1-text h1{
+  font-size:2.4rem;
+}
+.pic-1-text p{
+ padding-top: 30px;
+}
+.pic-1-text p{
+  font-size: 0.938rem;
+  font-weight: 300;
+  margin: 0.5rem 0 1.2rem;
+}
+.btn{
+  padding:10px 22px;
+  background: #8692a2;
+  color: var(--bg-color);
+  font-weight: 400;
+}
+.btn:hover{
+  background: #1c376e;
+}
+/*---------------------------------pic-3 styling------------------------------------*/
+.pic-2{
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background: url(./img/design-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    color: #ffffff;
+}
+.pic-2-text{
+  padding-left: 50px;
+}
+.pic-2-text h1{
+  font-size:2.4rem;
+}
+.pic-2-text p{
+ padding-top: 30px;
+}
+.pic-2-text p{
+  font-size: 0.938rem;
+  font-weight: 300;
+  margin: 0.5rem 0 1.2rem;
+}
+.btn-2{
+  padding:10px 22px;
+  background: #9e8a67;
+  color: var(--bg-color);
+  font-weight: 400;
+}
+.btn-2:hover{
+  background: #3561c2;
+}
